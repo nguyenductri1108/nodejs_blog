@@ -5,7 +5,8 @@
     "main": "src/index.js",
     "scripts": {
         "start": "nodemon --inspect src/index.js",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "watch": "sass --watch src/resources/scss/app.scss src/public/css/app.css"
     },
     "repository": {
         "type": "git",
@@ -24,7 +25,8 @@
     "homepage": "https://github.com/nguyenductri1108/nodejs_blog#readme",
     "dependencies": {
         "express": "^4.18.2",
-        "express-handlebars": "^7.0.7"
+        "express-handlebars": "^7.0.7",
+        "sass": "^1.62.1"
     },
     "devDependencies": {
         "morgan": "^1.10.0",
